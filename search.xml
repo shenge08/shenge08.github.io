@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[centos/fedro python3.7 install]]></title>
-    <url>%2F2018%2F10%2F15%2Fcentos-fedro-python3-7-install%2F</url>
-    <content type="text"><![CDATA[Centos/Fedora install python3.7config compile enviroment1yum install gcc download latest source code1wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz extract the downloaded package1tar xzf Python-3.7.0.tgz compile python source code123cd Python-3.4.8./configure --enable-optimizationsmake altinstall check1Python3.7 --version otherswhen compile the source code , may be require zlib and ctype 123yum -y install gcc gcc-c++ yum -y install zlib zlib-develyum -y install libffi-devel]]></content>
+<search> 
+  
+    
+    <entry>
+      <title>centos/fedro python3.7 install</title>
+      <link href="/2018/10/15/Centos%20and%20Fedro%20python3-7-install/"/>
+      <url>/2018/10/15/Centos%20and%20Fedro%20python3-7-install/</url>
+      
+        <content type="html"><![CDATA[<h4 id="config-compile-enviroment"><a href="#config-compile-enviroment" class="headerlink" title="config compile enviroment"></a>config compile enviroment</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install gcc</span><br></pre></td></tr></table></figure><h4 id="download-latest-source-code"><a href="#download-latest-source-code" class="headerlink" title="download latest source code"></a>download latest source code</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz</span><br></pre></td></tr></table></figure><a id="more"></a><h4 id="extract-the-downloaded-package"><a href="#extract-the-downloaded-package" class="headerlink" title="extract the downloaded package"></a>extract the downloaded package</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar xzf Python-3.7.0.tgz</span><br></pre></td></tr></table></figure><h4 id="compile-python-source-code"><a href="#compile-python-source-code" class="headerlink" title="compile python source code"></a>compile python source code</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> Python-3.4.8</span><br><span class="line">./configure --<span class="built_in">enable</span>-optimizations</span><br><span class="line">make altinstall</span><br></pre></td></tr></table></figure><h4 id="check"><a href="#check" class="headerlink" title="check"></a>check</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Python3.7 --version</span><br></pre></td></tr></table></figure><h4 id="others"><a href="#others" class="headerlink" title="others"></a>others</h4><p><em>when compile the source code , may be  require zlib and ctype</em> </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yum -y install gcc gcc-c++ </span><br><span class="line">yum -y install zlib zlib-devel</span><br><span class="line">yum -y install libffi-devel</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>soft install</category>
+          
+          <category> soft install </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F10%2F09%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
+      
+      
+    </entry>
+    
+  
+  
 </search>
