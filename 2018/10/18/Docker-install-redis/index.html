@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="config compile enviroment1yum install gcc download latest source code1wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz">
+<meta name="description" content="pull image1docker pull  redis install image1docker run -p 6379:6379 -v $PWD/data:/data  -d redis:latest  --appendonly yes --requirepass &quot;mypassword&quot;  -p 6379:6379 : 将容器的6379端口映射到主机的6379端口  -v $PWD/dat">
 <meta property="og:type" content="article">
-<meta property="og:title" content="centos&#x2F;fedro python3.7 install">
-<meta property="og:url" content="http://yoursite.com/2018/10/15/Centos-Fedro-Python3-7-Install/index.html">
+<meta property="og:title" content="Docker install redis">
+<meta property="og:url" content="http://yoursite.com/2018/10/18/Docker-install-redis/index.html">
 <meta property="og:site_name" content="shenge08">
-<meta property="og:description" content="config compile enviroment1yum install gcc download latest source code1wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz">
+<meta property="og:description" content="pull image1docker pull  redis install image1docker run -p 6379:6379 -v $PWD/data:/data  -d redis:latest  --appendonly yes --requirepass &quot;mypassword&quot;  -p 6379:6379 : 将容器的6379端口映射到主机的6379端口  -v $PWD/dat">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-10-15T03:08:03.607Z">
+<meta property="og:updated_time" content="2018-10-18T11:38:06.198Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="centos&#x2F;fedro python3.7 install">
-<meta name="twitter:description" content="config compile enviroment1yum install gcc download latest source code1wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz">
+<meta name="twitter:title" content="Docker install redis">
+<meta name="twitter:description" content="pull image1docker pull  redis install image1docker run -p 6379:6379 -v $PWD/data:/data  -d redis:latest  --appendonly yes --requirepass &quot;mypassword&quot;  -p 6379:6379 : 将容器的6379端口映射到主机的6379端口  -v $PWD/dat">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/10/15/Centos-Fedro-Python3-7-Install/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/10/18/Docker-install-redis/"/>
 
 
 
 
 
-  <title>centos/fedro python3.7 install | shenge08</title>
+  <title>Docker install redis | shenge08</title>
   
 
 
@@ -296,7 +296,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/15/Centos-Fedro-Python3-7-Install/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/18/Docker-install-redis/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="shenge08">
@@ -313,7 +313,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">centos/fedro python3.7 install</h1>
+          <h1 class="post-title" itemprop="name headline">Docker install redis</h1>
         
 
         <div class="post-meta">
@@ -325,8 +325,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-10-15T10:43:27+08:00">
-                2018-10-15
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-10-18T19:26:34+08:00">
+                2018-10-18
               </time>
             
 
@@ -348,8 +348,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/soft-install/" itemprop="url" rel="index">
-                    <span itemprop="name">soft install</span>
+                  <a href="/categories/docker-soft-intall/" itemprop="url" rel="index">
+                    <span itemprop="name">docker soft intall</span>
                   </a>
                 </span>
 
@@ -385,14 +385,18 @@
       
 
       
-        <h4 id="config-compile-enviroment"><a href="#config-compile-enviroment" class="headerlink" title="config compile enviroment"></a>config compile enviroment</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install gcc</span><br></pre></td></tr></table></figure>
-<h4 id="download-latest-source-code"><a href="#download-latest-source-code" class="headerlink" title="download latest source code"></a>download latest source code</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz</span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-<h4 id="extract-the-downloaded-package"><a href="#extract-the-downloaded-package" class="headerlink" title="extract the downloaded package"></a>extract the downloaded package</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar xzf Python-3.7.0.tgz</span><br></pre></td></tr></table></figure>
-<h4 id="compile-python-source-code"><a href="#compile-python-source-code" class="headerlink" title="compile python source code"></a>compile python source code</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> Python-3.4.8</span><br><span class="line">./configure --<span class="built_in">enable</span>-optimizations</span><br><span class="line">make altinstall</span><br></pre></td></tr></table></figure>
-<h4 id="check"><a href="#check" class="headerlink" title="check"></a>check</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Python3.7 --version</span><br></pre></td></tr></table></figure>
-<h4 id="others"><a href="#others" class="headerlink" title="others"></a>others</h4><p><em>when compile the source code , may be  require zlib and ctype</em> </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yum -y install gcc gcc-c++ </span><br><span class="line">yum -y install zlib zlib-devel</span><br><span class="line">yum -y install libffi-devel</span><br></pre></td></tr></table></figure>
+        <h4 id="pull-image"><a href="#pull-image" class="headerlink" title="pull image"></a>pull image</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull  redis</span><br></pre></td></tr></table></figure>
+<h4 id="install-image"><a href="#install-image" class="headerlink" title="install image"></a>install image</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -p 6379:6379 -v <span class="variable">$PWD</span>/data:/data  -d redis:latest  --appendonly yes --requirepass <span class="string">"mypassword"</span></span><br></pre></td></tr></table></figure>
+<ol>
+<li><p><strong>-p 6379:6379 :</strong> 将容器的6379端口映射到主机的6379端口</p>
+</li>
+<li><p><strong>-v $PWD/data:/data :</strong> 将主机中当前目录下的data挂载到容器的/data）</p>
+</li>
+<li><p><strong>–appendonly yes :</strong> 打开redis持久化配置</p>
+</li>
+<li><p><strong>–requirepass :</strong> redis设置密码</p>
+</li>
+</ol>
 
       
     </div>
@@ -417,15 +421,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/10/15/Centos-Fedro-Python3-7-Install/" rel="next" title="centos/fedro python3.7 install">
+                <i class="fa fa-chevron-left"></i> centos/fedro python3.7 install
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/10/18/Docker-install-redis/" rel="prev" title="Docker install redis">
-                Docker install redis <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -548,7 +552,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#config-compile-enviroment"><span class="nav-number">1.</span> <span class="nav-text">config compile enviroment</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#download-latest-source-code"><span class="nav-number">2.</span> <span class="nav-text">download latest source code</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#extract-the-downloaded-package"><span class="nav-number">3.</span> <span class="nav-text">extract the downloaded package</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#compile-python-source-code"><span class="nav-number">4.</span> <span class="nav-text">compile python source code</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#check"><span class="nav-number">5.</span> <span class="nav-text">check</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#others"><span class="nav-number">6.</span> <span class="nav-text">others</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#pull-image"><span class="nav-number">1.</span> <span class="nav-text">pull image</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#install-image"><span class="nav-number">2.</span> <span class="nav-text">install image</span></a></li></ol></div>
             
 
           </div>
