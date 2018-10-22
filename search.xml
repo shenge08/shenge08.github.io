@@ -18,7 +18,7 @@
   </entry>
   <entry>
     <title><![CDATA[centos/fedro python3.7 install]]></title>
-    <url>%2F2018%2F10%2F15%2FCentos-Fedro-Python3-7-Install%2F</url>
+    <url>%2F2018%2F10%2F14%2FCentos-Fedro-Python3-7-Install%2F</url>
     <content type="text"><![CDATA[config compile enviroment1yum install gcc download latest source code1wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz extract the downloaded package1tar xzf Python-3.7.0.tgz compile python source code123cd Python-3.7.0./configure --enable-optimizationsmake altinstall check1Python3.7 --version otherswhen compile the source code , may be require zlib and ctype 123yum -y install gcc gcc-c++ yum -y install zlib zlib-develyum -y install libffi-devel]]></content>
       <categories>
         <category>soft install</category>
